@@ -1,4 +1,12 @@
-﻿
+﻿.card-container{
+  display: flex;
+  flex-direction: column;
+}
+
+md-card {
+      margin: 0 16px 16px 0;
+      width: 350px;
+    }
 .gridListdemoBasicUsage md-grid-list {
   margin: 8px; }
 
