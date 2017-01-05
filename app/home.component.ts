@@ -4,6 +4,8 @@ export class Project {
     id: number;
     name: string;
     lang: string;
+    img: string;
+    link: string;
 }
 
 const PROJECTS: Project[] = [
