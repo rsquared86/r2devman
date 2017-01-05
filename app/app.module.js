@@ -15,6 +15,7 @@ var material_1 = require('@angular/material');
 var app_routing_module_1 = require('./app-routing.module');
 var app_component_1 = require('./app.component');
 var home_component_1 = require('./home.component');
+var header_component_1 = require('./header.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -27,7 +28,8 @@ var AppModule = (function () {
             ],
             declarations: [
                 app_component_1.AppComponent,
-                home_component_1.HomeComponent
+                home_component_1.HomeComponent,
+                header_component_1.HeaderComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 

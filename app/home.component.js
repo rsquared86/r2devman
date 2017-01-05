@@ -9,8 +9,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var Project = (function () {
+    function Project() {
+    }
+    return Project;
+}());
+exports.Project = Project;
+var PROJECTS = [
+    { id: 1, name: 'Angular', lang: 'JavaScript' },
+    { id: 2, name: 'Ember', lang: 'JavaScript' },
+    { id: 3, name: 'Node', lang: 'JavaScript' },
+];
 var HomeComponent = (function () {
     function HomeComponent() {
+        this.projects = PROJECTS;
     }
     HomeComponent = __decorate([
         core_1.Component({

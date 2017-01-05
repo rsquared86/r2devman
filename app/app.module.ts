@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home.component';
+import { HeaderComponent } from './header.component';
 
 
 
@@ -20,7 +21,8 @@ import { HomeComponent } from './home.component';
     ],
     declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        HeaderComponent
     ],
   bootstrap:    [ AppComponent ]
 })
