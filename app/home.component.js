@@ -16,9 +16,10 @@ var Project = (function () {
 }());
 exports.Project = Project;
 var PROJECTS = [
-    { id: 1, name: 'Angular', lang: 'JavaScript' },
-    { id: 2, name: 'Ember', lang: 'JavaScript' },
-    { id: 3, name: 'Node', lang: 'JavaScript' },
+    { id: 1, name: 'Biggest Book', lang: 'Angular, Java', img: '../img/business-cat.jpg', avatar: '../img/business-cat.jpg', link: 'http://www.biggestbook.com', description: '', featured: true },
+    { id: 2, name: 'eCommerce', lang: 'C#, ASP.NET, SQL, Dynamics AX', img: 'x', avatar: '', link: '', description: '', featured: false },
+    { id: 3, name: 'NativeScript', lang: 'Typescript, Angular2, Javascript', img: 'x', avatar: '', link: '', description: '', featured: true },
+    { id: 3, name: 'SkateLife:DD', lang: 'Cocoa, Objective-C', img: 'x', avatar: '', link: '', description: '', featured: false },
 ];
 var HomeComponent = (function () {
     function HomeComponent() {

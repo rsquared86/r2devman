@@ -10,7 +10,17 @@
         </h1>
         <div class="row">
             <div class="col-xs-12 col-sm-4" *ngFor="let project of projects">
-                <span>{{project.name}}</span>
+                <md-card>
+                    <md-card-header>
+                        <img md-card-avatar src="{{project.avatar}}">
+                        <md-card-title>{{project.name}}</md-card-title>
+                        <md-card-subtitle>{{project.lang}}</md-card-subtitle>
+                    </md-card-header>
+                    <img md-card-image src="{{project.img}}">
+                    <md-card-content>
+                        <p>{{project.link}}</p>
+                    </md-card-content>
+                </md-card>
             </div>
         </div>
     </div>
